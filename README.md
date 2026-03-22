@@ -1,8 +1,8 @@
 # Vercel Snippets for Sublime Text
 
-[![Package Control](https://img.shields.io/packagecontrol/dt/Vercel.svg?style=flat-square)](https://packagecontrol.io/packages/Vercel)
+[![Package Control](https://img.shields.io/packagecontrol/dt/Vercel%20Snippets.svg?style=flat-square)](https://packagecontrol.io/packages/Vercel%20Snippets)
 [![Sublime Text](https://img.shields.io/badge/Sublime%20Text-3%2F4-ff9800.svg?style=flat-square&logo=sublimetext&logoColor=white)](https://www.sublimetext.com/)
-[![License](https://img.shields.io/github/license/renzojohnson/Vercel.svg?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/renzojohnson/Vercel-Snippets.svg?style=flat-square)](LICENSE)
 
 140 curated snippets for Vercel development — vercel.json, CLI, Functions, Next.js, AI SDK, Storage, and Deployment.
 
@@ -16,7 +16,7 @@
 
 1. Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 2. Type **Install Package**
-3. Search for **Vercel**
+3. Search for **Vercel Snippets**
 
 ### Manual
 
@@ -25,15 +25,15 @@ Clone into your Sublime Text `Packages` directory:
 ```bash
 # macOS
 cd ~/Library/Application\ Support/Sublime\ Text/Packages
-git clone https://github.com/renzojohnson/Vercel.git
+git clone https://github.com/renzojohnson/Vercel-Snippets.git
 
 # Linux
 cd ~/.config/sublime-text/Packages
-git clone https://github.com/renzojohnson/Vercel.git
+git clone https://github.com/renzojohnson/Vercel-Snippets.git
 
 # Windows
 cd %APPDATA%\Sublime Text\Packages
-git clone https://github.com/renzojohnson/Vercel.git
+git clone https://github.com/renzojohnson/Vercel-Snippets.git
 ```
 
 ## Usage
@@ -236,8 +236,8 @@ Type `vc:` and browse the autocomplete menu, then press **Tab** to expand.
 ## Links
 
 - [Package Control](https://packagecontrol.io/packages/Vercel)
-- [GitHub](https://github.com/renzojohnson/Vercel)
-- [Issues](https://github.com/renzojohnson/Vercel/issues)
+- [GitHub](https://github.com/renzojohnson/Vercel-Snippets)
+- [Issues](https://github.com/renzojohnson/Vercel-Snippets/issues)
 - [Author](https://renzojohnson.com)
 
 ## License
