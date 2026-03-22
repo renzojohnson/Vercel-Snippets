@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel promote ${1:deployment-url}${0}
+]]></content>
+    <tabTrigger>vc:cli:promote</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Promote deployment to production</description>
+</snippet>

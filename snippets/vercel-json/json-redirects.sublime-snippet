@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+"redirects": [
+  { "source": "${1:/old}", "destination": "${2:/new}", "permanent": ${3:true} },
+  ${0}
+]
+]]></content>
+    <tabTrigger>vc:json:redirects</tabTrigger>
+    <scope>source.json</scope>
+    <description>Redirects array</description>
+</snippet>

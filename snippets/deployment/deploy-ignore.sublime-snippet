@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+#!/bin/bash
+echo "VERCEL_GIT_COMMIT_REF: \$VERCEL_GIT_COMMIT_REF"
+
+if [[ "\$VERCEL_GIT_COMMIT_REF" == "${1:main}" ]]; then
+  echo ">> Proceed with build"
+  exit 1
+else
+  echo ">> Skip build"
+  exit 0
+fi
+]]></content>
+    <tabTrigger>vc:deploy:ignore</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Ignore build step script</description>
+</snippet>

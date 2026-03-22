@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel logs ${1:deployment-url} --follow${0}
+]]></content>
+    <tabTrigger>vc:cli:logs</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Tail runtime logs</description>
+</snippet>

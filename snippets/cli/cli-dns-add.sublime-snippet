@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel dns add ${1:example.com} ${2:@} ${3:A} ${4:76.76.21.21}${0}
+]]></content>
+    <tabTrigger>vc:cli:dns:add</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Add DNS record</description>
+</snippet>

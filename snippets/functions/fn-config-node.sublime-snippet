@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+export const config = {
+  runtime: 'nodejs',
+  memory: ${1:1024},
+  maxDuration: ${2:10},
+};
+${0}
+]]></content>
+    <tabTrigger>vc:fn:config:node</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Function config (Node runtime)</description>
+</snippet>

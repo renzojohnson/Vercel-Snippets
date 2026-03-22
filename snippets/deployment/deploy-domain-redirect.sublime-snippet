@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://${1:example.com}/\$1", "permanent": true }
+  ]
+}
+]]></content>
+    <tabTrigger>vc:deploy:domain:redirect</tabTrigger>
+    <scope>source.json</scope>
+    <description>Domain redirect (www to apex)</description>
+</snippet>

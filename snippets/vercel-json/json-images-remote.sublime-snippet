@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+"images": {
+  "remotePatterns": [
+    {
+      "protocol": "https",
+      "hostname": "${1:**.example.com}"
+    }
+  ]
+}${0}
+]]></content>
+    <tabTrigger>vc:json:images:remote</tabTrigger>
+    <scope>source.json</scope>
+    <description>Remote image patterns</description>
+</snippet>

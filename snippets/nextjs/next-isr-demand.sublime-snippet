@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+import { revalidatePath } from 'next/cache';
+import { NextRequest } from 'next/server';
+
+export async function POST(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const secret = searchParams.get('secret');
+
+  if (secret !== process.env.REVALIDATION_SECRET) {
+    return Response.json({ message: 'Invalid secret' }, { status: 401 });
+  }
+
+  revalidatePath('${1:/}');
+  return Response.json({ revalidated: true, now: Date.now() });
+}
+]]></content>
+    <tabTrigger>vc:next:isr:demand</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>On-demand ISR revalidation API route</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel link${0}
+]]></content>
+    <tabTrigger>vc:cli:link</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Link local directory to project</description>
+</snippet>

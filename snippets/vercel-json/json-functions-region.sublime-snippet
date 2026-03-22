@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+"functions": {
+  "${1:api/**/*.ts}": {
+    "memory": ${2:1024},
+    "maxDuration": ${3:10},
+    "regions": ["${4:iad1}"]
+  }
+}${0}
+]]></content>
+    <tabTrigger>vc:json:functions:region</tabTrigger>
+    <scope>source.json</scope>
+    <description>Functions with region override</description>
+</snippet>

@@ -1,0 +1,25 @@
+  Vercel Snippets for Sublime Text
+  =================================
+
+  140 curated snippets for Vercel development.
+  Built from Vercel, Next.js, and Vercel AI SDK docs (March 2026).
+
+  Quick Start:
+    1. Open any JS/TS/JSON file
+    2. Type  vc:  and browse the autocomplete menu
+    3. Press Tab to expand and jump between placeholders
+
+  Categories:
+    vc:json:*       vercel.json config (28)
+    vc:cli:*        CLI commands (22)
+    vc:fn:*         Serverless & Edge functions (20)
+    vc:next:*       Next.js + Vercel patterns (30)
+    vc:env:*        Environment & config (10)
+    vc:store:*      Storage — Redis, Postgres, Blob (10)
+    vc:ai:*         AI SDK (5)
+    vc:deploy:*     Deployment & CI (15)
+
+  Documentation:
+    https://github.com/renzojohnson/Vercel
+
+  Author: Renzo Johnson — https://renzojohnson.com

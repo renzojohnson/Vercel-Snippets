@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+
+export function middleware(request: NextRequest) {
+  const token = request.cookies.get('${1:session}')?.value;
+
+  if (!token) {
+    return NextResponse.redirect(new URL('${2:/login}', request.url));
+  }
+
+  return NextResponse.next();
+}
+
+export const config = {
+  matcher: ['${3:/dashboard/:path*}'],
+};
+]]></content>
+    <tabTrigger>vc:next:middleware:auth</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Middleware auth check</description>
+</snippet>

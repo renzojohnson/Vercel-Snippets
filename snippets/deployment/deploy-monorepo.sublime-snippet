@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+{
+  "\$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd ../.. && npx turbo run build --filter=${1:web}",
+  "installCommand": "npm install --prefix ../..",
+  "framework": "${2:nextjs}",
+  "outputDirectory": "${3:.next}"
+}
+]]></content>
+    <tabTrigger>vc:deploy:monorepo</tabTrigger>
+    <scope>source.json</scope>
+    <description>Monorepo project config</description>
+</snippet>

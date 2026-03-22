@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{
+  "source": "${1:/(.*)}",
+  "headers": [
+    { "key": "${2:X-Custom-Header}", "value": "${3:value}" }
+  ]
+}${0}
+]]></content>
+    <tabTrigger>vc:json:header</tabTrigger>
+    <scope>source.json</scope>
+    <description>Custom header rule</description>
+</snippet>

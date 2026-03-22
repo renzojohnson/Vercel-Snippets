@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[
+import { ImageResponse } from 'next/og';
+
+export const runtime = 'edge';
+
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const title = searchParams.get('title') ?? '${1:Default Title}';
+
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          display: 'flex',
+          fontSize: ${2:60},
+          color: '${3:white}',
+          background: '${4:black}',
+          width: '100%',
+          height: '100%',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {title}
+      </div>
+    ),
+    { width: 1200, height: 630 }
+  );
+}
+]]></content>
+    <tabTrigger>vc:next:og</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>OG image generation (ImageResponse)</description>
+</snippet>

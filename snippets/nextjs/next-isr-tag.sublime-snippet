@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+import { revalidateTag } from 'next/cache';
+
+export async function POST(request: Request) {
+  const { tag } = await request.json();
+  revalidateTag(tag);
+  return Response.json({ revalidated: true, tag });
+}
+]]></content>
+    <tabTrigger>vc:next:isr:tag</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Tag-based revalidation</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+"functions": {
+  "${1:api/**/*.ts}": {
+    "memory": ${2:1024},
+    "maxDuration": ${3:10}
+  }
+}${0}
+]]></content>
+    <tabTrigger>vc:json:functions</tabTrigger>
+    <scope>source.json</scope>
+    <description>Functions config (memory, maxDuration)</description>
+</snippet>

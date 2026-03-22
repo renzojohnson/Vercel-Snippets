@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+'use client';
+
+import { useChat } from 'ai/react';
+
+export default function Chat() {
+  const { messages, input, handleInputChange, handleSubmit } = useChat();
+
+  return (
+    <div>
+      {messages.map(m => (
+        <div key={m.id}>
+          <strong>{m.role}:</strong> {m.content}
+        </div>
+      ))}
+      <form onSubmit={handleSubmit}>
+        <input value={input} onChange={handleInputChange} placeholder="${1:Say something...}" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  );
+}
+]]></content>
+    <tabTrigger>vc:ai:chat</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>AI chat component (useChat)</description>
+</snippet>

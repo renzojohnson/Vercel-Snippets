@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel whoami${0}
+]]></content>
+    <tabTrigger>vc:cli:whoami</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Show current user/team</description>
+</snippet>

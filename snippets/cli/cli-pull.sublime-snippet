@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel pull${0}
+]]></content>
+    <tabTrigger>vc:cli:pull</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Pull project settings and env vars</description>
+</snippet>

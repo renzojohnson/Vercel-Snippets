@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{ "source": "/api/${1::path*}", "destination": "/api/${1::path*}" }${0}
+]]></content>
+    <tabTrigger>vc:json:api</tabTrigger>
+    <scope>source.json</scope>
+    <description>API route rewrite to serverless function</description>
+</snippet>

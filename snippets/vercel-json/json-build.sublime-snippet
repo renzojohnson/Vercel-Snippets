@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+"buildCommand": "${1:npm run build}"${0}
+]]></content>
+    <tabTrigger>vc:json:build</tabTrigger>
+    <scope>source.json</scope>
+    <description>Build command override</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{ "source": "/(.*)", "destination": "/index.html" }${0}
+]]></content>
+    <tabTrigger>vc:json:spa</tabTrigger>
+    <scope>source.json</scope>
+    <description>SPA fallback rewrite</description>
+</snippet>

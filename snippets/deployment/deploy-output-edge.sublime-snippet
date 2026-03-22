@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{
+  "runtime": "edge",
+  "entrypoint": "${1:index.js}"
+}
+]]></content>
+    <tabTrigger>vc:deploy:output:edge</tabTrigger>
+    <scope>source.json</scope>
+    <description>Build Output API edge function (.vc-config.json)</description>
+</snippet>

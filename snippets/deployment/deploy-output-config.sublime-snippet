@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{
+  "version": 3,
+  "routes": [
+    { "src": "/${1:api/(.*)}",  "dest": "/${1:api/\$1}" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
+]]></content>
+    <tabTrigger>vc:deploy:output:config</tabTrigger>
+    <scope>source.json</scope>
+    <description>Build Output API config.json</description>
+</snippet>

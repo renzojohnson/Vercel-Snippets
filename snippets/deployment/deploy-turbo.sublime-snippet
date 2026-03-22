@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+{
+  "\$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["${1:.next/**}", "!.next/cache/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {}
+  }
+}
+]]></content>
+    <tabTrigger>vc:deploy:turbo</tabTrigger>
+    <scope>source.json</scope>
+    <description>turbo.json for monorepo</description>
+</snippet>

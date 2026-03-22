@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{ "source": "${1:/old-path}", "destination": "${2:/new-path}", "permanent": true }${0}
+]]></content>
+    <tabTrigger>vc:json:redirect:permanent</tabTrigger>
+    <scope>source.json</scope>
+    <description>Permanent redirect (308)</description>
+</snippet>

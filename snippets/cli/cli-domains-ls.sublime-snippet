@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel domains ls${0}
+]]></content>
+    <tabTrigger>vc:cli:domains:ls</tabTrigger>
+    <scope>source.shell</scope>
+    <description>List domains</description>
+</snippet>

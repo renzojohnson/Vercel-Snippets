@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel env ls${0}
+]]></content>
+    <tabTrigger>vc:cli:env:ls</tabTrigger>
+    <scope>source.shell</scope>
+    <description>List environment variables</description>
+</snippet>

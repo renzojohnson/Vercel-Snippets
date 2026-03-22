@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel domains add ${1:example.com}${0}
+]]></content>
+    <tabTrigger>vc:cli:domains:add</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Add custom domain</description>
+</snippet>

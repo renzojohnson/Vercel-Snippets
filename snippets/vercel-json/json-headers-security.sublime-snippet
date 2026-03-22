@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{
+  "source": "${1:/(.*)}",
+  "headers": [
+    { "key": "X-Content-Type-Options", "value": "nosniff" },
+    { "key": "X-Frame-Options", "value": "DENY" },
+    { "key": "X-XSS-Protection", "value": "1; mode=block" },
+    { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+    { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
+    { "key": "Content-Security-Policy", "value": "${2:default-src 'self'}" }
+  ]
+}${0}
+]]></content>
+    <tabTrigger>vc:json:headers:security</tabTrigger>
+    <scope>source.json</scope>
+    <description>Security headers (CSP, HSTS, X-Frame)</description>
+</snippet>

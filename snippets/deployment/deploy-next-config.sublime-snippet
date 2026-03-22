@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: '${1:**.example.com}' },
+    ],
+  },
+  experimental: {
+    ${0}
+  },
+};
+
+module.exports = nextConfig;
+]]></content>
+    <tabTrigger>vc:deploy:next:config</tabTrigger>
+    <scope>source.js, source.ts</scope>
+    <description>next.config.js for Vercel</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+"headers": [
+  {
+    "source": "${1:/(.*)}",
+    "headers": [
+      { "key": "Access-Control-Allow-Origin", "value": "${2:*}" },
+      { "key": "Access-Control-Allow-Methods", "value": "${3:GET,POST,OPTIONS}" },
+      { "key": "Access-Control-Allow-Headers", "value": "${4:Content-Type}" }
+    ]
+  }
+]${0}
+]]></content>
+    <tabTrigger>vc:json:headers</tabTrigger>
+    <scope>source.json</scope>
+    <description>Headers array with CORS</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel env add ${1:VARIABLE_NAME} ${2:production preview development}${0}
+]]></content>
+    <tabTrigger>vc:cli:env:add</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Add environment variable</description>
+</snippet>

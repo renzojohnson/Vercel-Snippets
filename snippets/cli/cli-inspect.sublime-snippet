@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel inspect ${1:deployment-url}${0}
+]]></content>
+    <tabTrigger>vc:cli:inspect</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Inspect deployment</description>
+</snippet>

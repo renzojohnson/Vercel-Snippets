@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+"env": {
+  "${1:VARIABLE_NAME}": "${2:value}"
+}${0}
+]]></content>
+    <tabTrigger>vc:json:env</tabTrigger>
+    <scope>source.json</scope>
+    <description>Environment variable</description>
+</snippet>

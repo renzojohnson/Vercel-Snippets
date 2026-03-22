@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+"regions": ["${1:iad1}"]${0}
+]]></content>
+    <tabTrigger>vc:json:regions</tabTrigger>
+    <scope>source.json</scope>
+    <description>Regions array</description>
+</snippet>

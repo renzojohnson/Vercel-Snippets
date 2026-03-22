@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel build${0}
+]]></content>
+    <tabTrigger>vc:cli:build</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Build project locally</description>
+</snippet>

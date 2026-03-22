@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel bisect${0}
+]]></content>
+    <tabTrigger>vc:cli:bisect</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Bisect deployments to find regression</description>
+</snippet>

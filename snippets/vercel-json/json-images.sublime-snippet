@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+"images": {
+  "sizes": [${1:640, 750, 828, 1080, 1200}],
+  "domains": ["${2:example.com}"],
+  "minimumCacheTTL": ${3:60}
+}${0}
+]]></content>
+    <tabTrigger>vc:json:images</tabTrigger>
+    <scope>source.json</scope>
+    <description>Images optimization config</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+export default function NotFound() {
+  return (
+    <div>
+      <h2>${1:Not Found}</h2>
+      <p>${2:Could not find the requested resource.}</p>
+    </div>
+  );
+}
+]]></content>
+    <tabTrigger>vc:next:not:found</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Not found page</description>
+</snippet>

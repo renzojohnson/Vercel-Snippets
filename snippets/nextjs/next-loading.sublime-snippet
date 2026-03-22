@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+export default function Loading() {
+  return <div>${1:Loading...}</div>;
+}
+]]></content>
+    <tabTrigger>vc:next:loading</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Loading UI (Suspense boundary)</description>
+</snippet>

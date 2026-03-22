@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+"crons": [
+  { "path": "${1:/api/cron}", "schedule": "${2:0 5 * * *}" },
+  ${0}
+]
+]]></content>
+    <tabTrigger>vc:json:crons</tabTrigger>
+    <scope>source.json</scope>
+    <description>Crons array</description>
+</snippet>

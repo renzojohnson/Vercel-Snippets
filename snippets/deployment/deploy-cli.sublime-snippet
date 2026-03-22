@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+npx vercel --prod --token=\$VERCEL_TOKEN${0}
+]]></content>
+    <tabTrigger>vc:deploy:cli</tabTrigger>
+    <scope>source.yaml, source.shell</scope>
+    <description>Deploy via Vercel CLI</description>
+</snippet>

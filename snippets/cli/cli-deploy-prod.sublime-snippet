@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel --prod${0}
+]]></content>
+    <tabTrigger>vc:cli:deploy:prod</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Deploy to production</description>
+</snippet>

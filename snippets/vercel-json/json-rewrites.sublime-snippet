@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+"rewrites": [
+  { "source": "${1:/api/:path*}", "destination": "${2:/api/:path*}" },
+  ${0}
+]
+]]></content>
+    <tabTrigger>vc:json:rewrites</tabTrigger>
+    <scope>source.json</scope>
+    <description>Rewrites array with multiple rules</description>
+</snippet>

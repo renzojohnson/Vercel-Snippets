@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel dev${0}
+]]></content>
+    <tabTrigger>vc:cli:dev</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Start local dev server</description>
+</snippet>

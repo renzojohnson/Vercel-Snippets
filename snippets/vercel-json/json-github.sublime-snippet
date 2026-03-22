@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+"github": {
+  "silent": ${1:true},
+  "autoJobCancelation": ${2:true}
+}${0}
+]]></content>
+    <tabTrigger>vc:json:github</tabTrigger>
+    <scope>source.json</scope>
+    <description>GitHub integration config</description>
+</snippet>

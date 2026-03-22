@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+"framework": "${1:nextjs}"${0}
+]]></content>
+    <tabTrigger>vc:json:framework</tabTrigger>
+    <scope>source.json</scope>
+    <description>Framework preset</description>
+</snippet>

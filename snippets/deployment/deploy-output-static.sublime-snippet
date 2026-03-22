@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+{
+  "type": "static"
+}
+]]></content>
+    <tabTrigger>vc:deploy:output:static</tabTrigger>
+    <scope>source.json</scope>
+    <description>Build Output API static route (.vc-config.json)</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+"cleanUrls": ${1:true},
+"trailingSlash": ${2:false}${0}
+]]></content>
+    <tabTrigger>vc:json:clean</tabTrigger>
+    <scope>source.json</scope>
+    <description>Clean URLs (trailingSlash, cleanUrls)</description>
+</snippet>

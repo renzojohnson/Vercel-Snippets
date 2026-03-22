@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel certs ls${0}
+]]></content>
+    <tabTrigger>vc:cli:certs</tabTrigger>
+    <scope>source.shell</scope>
+    <description>List SSL certificates</description>
+</snippet>

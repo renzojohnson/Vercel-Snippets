@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{
+  "runtime": "nodejs20.x",
+  "handler": "${1:index.handler}",
+  "memory": ${2:1024},
+  "maxDuration": ${3:10}
+}
+]]></content>
+    <tabTrigger>vc:deploy:output:function</tabTrigger>
+    <scope>source.json</scope>
+    <description>Build Output API serverless function (.vc-config.json)</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{
+  "\$schema": "https://openapi.vercel.sh/vercel.json",
+  ${1:"buildCommand": "${2:npm run build}",
+  "outputDirectory": "${3:dist}",}
+  "rewrites": [
+    ${0}
+  ]
+}
+]]></content>
+    <tabTrigger>vc:json:init</tabTrigger>
+    <scope>source.json</scope>
+    <description>vercel.json — minimal starter</description>
+</snippet>

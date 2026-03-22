@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{ "source": "${1:/old-path}", "destination": "${2:/new-path}", "statusCode": ${3:301} }${0}
+]]></content>
+    <tabTrigger>vc:json:redirect</tabTrigger>
+    <scope>source.json</scope>
+    <description>Redirect rule (301)</description>
+</snippet>

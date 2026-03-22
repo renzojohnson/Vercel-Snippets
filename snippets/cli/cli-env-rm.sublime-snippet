@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel env rm ${1:VARIABLE_NAME} ${2:production}${0}
+]]></content>
+    <tabTrigger>vc:cli:env:rm</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Remove environment variable</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel env pull ${1:.env.local}${0}
+]]></content>
+    <tabTrigger>vc:cli:env:pull</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Pull env vars to .env.local</description>
+</snippet>

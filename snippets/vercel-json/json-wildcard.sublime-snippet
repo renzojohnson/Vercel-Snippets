@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{ "source": "${1:/:path*}", "destination": "${2:/api/:path*}" }${0}
+]]></content>
+    <tabTrigger>vc:json:wildcard</tabTrigger>
+    <scope>source.json</scope>
+    <description>Wildcard/catch-all rewrite</description>
+</snippet>

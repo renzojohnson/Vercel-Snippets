@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel project ls${0}
+]]></content>
+    <tabTrigger>vc:cli:project:ls</tabTrigger>
+    <scope>source.shell</scope>
+    <description>List projects</description>
+</snippet>

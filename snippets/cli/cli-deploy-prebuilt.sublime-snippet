@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+vercel deploy --prebuilt${0}
+]]></content>
+    <tabTrigger>vc:cli:deploy:prebuilt</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Deploy prebuilt output</description>
+</snippet>

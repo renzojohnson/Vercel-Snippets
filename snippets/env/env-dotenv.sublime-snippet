@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+# .env.local
+${1:DATABASE_URL}="${2:postgresql://user:pass@host/db}"
+${3:API_KEY}="${4:your-api-key}"
+${0}
+]]></content>
+    <tabTrigger>vc:env:dotenv</tabTrigger>
+    <scope>source.shell, text.plain</scope>
+    <description>.env.local template</description>
+</snippet>

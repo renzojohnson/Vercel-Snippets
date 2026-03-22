@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+import { Redis } from '@upstash/redis';
+
+const redis = new Redis({
+  url: process.env.KV_REST_API_URL!,
+  token: process.env.KV_REST_API_TOKEN!,
+});
+${0}
+]]></content>
+    <tabTrigger>vc:store:redis:init</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Upstash Redis client init</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+import { geolocation } from '@vercel/functions';
+
+export function middleware(request: NextRequest) {
+  const { country } = geolocation(request);
+
+  if (country === '${1:US}') {
+    return NextResponse.rewrite(new URL('${2:/us}', request.url));
+  }
+
+  return NextResponse.next();
+}
+]]></content>
+    <tabTrigger>vc:next:middleware:geo</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Middleware with geo-redirect</description>
+</snippet>

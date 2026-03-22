@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '${1:**.example.com}',
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;
+]]></content>
+    <tabTrigger>vc:next:image:remote</tabTrigger>
+    <scope>source.js, source.ts, source.tsx</scope>
+    <description>Next/Image remote pattern config</description>
+</snippet>

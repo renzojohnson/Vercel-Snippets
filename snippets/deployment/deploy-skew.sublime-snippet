@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    deploymentId: process.env.VERCEL_DEPLOYMENT_ID,
+  },
+};
+
+module.exports = nextConfig;
+]]></content>
+    <tabTrigger>vc:deploy:skew</tabTrigger>
+    <scope>source.js, source.ts</scope>
+    <description>Skew protection config</description>
+</snippet>
